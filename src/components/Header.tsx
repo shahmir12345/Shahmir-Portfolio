@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 import { site } from "@/data/site";
 
 const links = [
-  { href: "/", label: "home" },
-  { href: "/about", label: "about me" },
-  { href: "/portfolio", label: "my portfolio" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About me" },
+  { href: "/portfolio", label: "My Portfolio" },
 ];
 
 // "use client" because usePathname() needs the browser to know which page is open,
